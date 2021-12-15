@@ -13,6 +13,15 @@ export default function Navbar() {
 		})
 	})
 
+	const logoutRefresh = (e) => {
+		e.preventDefault()
+
+		localStorage.removeItem('acc_logged_in')
+		localStorage.removeItem('acc_username')
+
+		window.location.href = '/'
+	}
+
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
 			<div className="container">
@@ -35,6 +44,20 @@ export default function Navbar() {
 						<li className="nav-item">
 							<Link className="nav-link" to="/developers">Developers</Link>
 						</li>
+					</ul>
+
+					<ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+						{localStorage.getItem('acc_logged_in') == 'true' ? (
+							<li className="nav-item">
+								<form onSubmit={logoutRefresh}>
+									<button type="submit" className="nav-link btn btn-dark">Logout</button>
+								</form>
+							</li>
+						) : (
+							<li className="nav-item">
+								<Link className="nav-link" to="/login">Login</Link>
+							</li>
+						)}
 					</ul>
 				</div>
 			</div>

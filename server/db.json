@@ -1,0 +1,75 @@
+{
+	"news": [
+		{
+			"id": 1,
+			"date": "3 Februari 2021",
+			"title": "Anak ayam terlindas truk",
+			"content": "Lorem ipsum dolor 1 sit amet consectetur adipisicing elit. Consectetur laudantium fugiat sit quasi incidunt aliquid, asperiores repudiandae nobis. Nihil ab vero temporibus quaerat dolore inventore earum id amet. Saepe, praesentium?"
+		},
+		{
+			"id": 2,
+			"date": "15 Maret 2021",
+			"title": "Lorem ipsum 2 dolor sit amet consectetur adipisicing elit",
+			"content": "Lorem ipsum dolor 2 sit amet consectetur adipisicing elit. Consectetur laudantium fugiat sit quasi incidunt aliquid, asperiores repudiandae nobis. Nihil ab vero temporibus quaerat dolore inventore earum id amet. Saepe, praesentium?"
+		},
+		{
+			"id": 3,
+			"date": "25 Juli 2021",
+			"title": "Lorem ipsum 3 dolor sit amet consectetur adipisicing elit",
+			"content": "Lorem ipsum dolor 3 sit amet consectetur adipisicing elit. Consectetur laudantium fugiat sit quasi incidunt aliquid, asperiores repudiandae nobis. Nihil ab vero temporibus quaerat dolore inventore earum id amet. Saepe, praesentium?"
+		},
+		{
+			"id": 4,
+			"date": "5 Agustus 2021",
+			"title": "Lorem ipsum 4 dolor sit amet consectetur adipisicing elit",
+			"content": "Lorem ipsum dolor 4 sit amet consectetur adipisicing elit. Consectetur laudantium fugiat sit quasi incidunt aliquid, asperiores repudiandae nobis. Nihil ab vero temporibus quaerat dolore inventore earum id amet. Saepe, praesentium?"
+		}
+	],
+	"blogs": [
+		{
+			"id": 1,
+			"date": "6 Februari 2021",
+			"title": "BLAHHHH",
+			"content": "Lorem ipsum dolor 1 sit amet consectetur adipisicing elit. Consectetur laudantium fugiat sit quasi incidunt aliquid, asperiores repudiandae nobis. Nihil ab vero temporibus quaerat dolore inventore earum id amet. Saepe, praesentium?"
+		},
+		{
+			"id": 2,
+			"date": "3 Maret 2021",
+			"title": "Lorem ipsum 2 dolor sit amet consectetur adipisicing elit",
+			"content": "Lorem ipsum dolor 2 sit amet consectetur adipisicing elit. Consectetur laudantium fugiat sit quasi incidunt aliquid, asperiores repudiandae nobis. Nihil ab vero temporibus quaerat dolore inventore earum id amet. Saepe, praesentium?"
+		},
+		{
+			"id": 3,
+			"date": "8 Agustus 2021",
+			"title": "Lorem ipsum 3 dolor sit amet consectetur adipisicing elit",
+			"content": "Lorem ipsum dolor 3 sit amet consectetur adipisicing elit. Consectetur laudantium fugiat sit quasi incidunt aliquid, asperiores repudiandae nobis. Nihil ab vero temporibus quaerat dolore inventore earum id amet. Saepe, praesentium?"
+		},
+		{
+			"id": 4,
+			"date": "31 September 2021",
+			"title": "Lorem ipsum 4 dolor sit amet consectetur adipisicing elit",
+			"content": "Lorem ipsum dolor 4 sit amet consectetur adipisicing elit. Consectetur laudantium fugiat sit quasi incidunt aliquid, asperiores repudiandae nobis. Nihil ab vero temporibus quaerat dolore inventore earum id amet. Saepe, praesentium?"
+		}
+
+	],
+	"developers": [
+		{
+			"name": "Filbert Mangiri",
+			"nim": "00000050612",
+			"image": "",
+			"description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+		},
+		{
+			"name": "Muhammad Rifqi Al Hakim",
+			"nim": "00000050617",
+			"image": "https://pbs.twimg.com/media/E8Zk6rmVcAIWPDi?format=png&name=360x360",
+			"description": "just a normal guy who have a good luck."
+		},
+		{
+			"name": "Hans Natan Hermawan Chiou",
+			"nim": "00000046141",
+			"image": "",
+			"description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+		}
+	]
+}

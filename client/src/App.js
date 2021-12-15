@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, Switch } from 'react-router-dom';
 
 import './App.css';
 
@@ -9,6 +9,7 @@ import Navbar from './Components/Partials/Navbar/Navbar';
 import News from './Components/Pages/News/News';
 import Blogs from './Components/Pages/Blogs/Blogs';
 import Developers from './Components/Pages/Developers/Developers';
+import Login from './Components/Pages/Login/Login';
 import Error from './Components/Pages/Error/Error';
 
 export default function App() {
@@ -22,6 +23,8 @@ export default function App() {
 					<Route path="/news" element={<News />} />
 					<Route path="/blogs" element={<Blogs />} />
 					<Route path="/developers" element={<Developers />} />
+
+					<Route path="/login" element={<Login />} />
 
 					<Route path="*" element={<Error />} />
 				</Routes>
