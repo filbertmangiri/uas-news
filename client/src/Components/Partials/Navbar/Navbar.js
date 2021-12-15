@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import $ from "jquery";
 
 export default function Navbar() {
@@ -22,6 +22,8 @@ export default function Navbar() {
 		window.location.href = '/'
 	}
 
+	const location = useLocation()
+
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
 			<div className="container">
@@ -34,15 +36,15 @@ export default function Navbar() {
 				<div className="collapse navbar-collapse" id="navbarText">
 					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 						<li className="nav-item">
-							<Link className="nav-link active" aria-current="page" to="/news">News</Link>
+							<Link className={`nav-link ${location.pathname == '/news'}`} to="/news">News</Link>
 						</li>
 
 						<li className="nav-item">
-							<Link className="nav-link" to="/blogs">Blogs</Link>
+							<Link className={`nav-link ${location.pathname == '/blogs'}`} to="/blogs">Blogs</Link>
 						</li>
 
 						<li className="nav-item">
-							<Link className="nav-link" to="/developers">Developers</Link>
+							<Link className={`nav-link ${location.pathname == '/developers'}`} to="/developers">Developers</Link>
 						</li>
 					</ul>
 
@@ -55,7 +57,7 @@ export default function Navbar() {
 							</li>
 						) : (
 							<li className="nav-item">
-								<Link className="nav-link" to="/login">Login</Link>
+								<Link className={`nav-link btn btn-dark ${location.pathname == '/login'}`} to="/login">Login</Link>
 							</li>
 						)}
 					</ul>

@@ -3,7 +3,7 @@ export default function DevelopersList({ developers }) {
 		<div className="card-group">
 			{developers.map(obj => (
 				<div className="card bg-dark text-white mx-3">
-					<img src={obj.image} />
+					<img src={obj.image} height={350} />
 					<div className="card-body">
 						<h5 className="card-title text-center">{obj.name}</h5>
 						<h6 className="card-title text-center">{obj.nim}</h6>

@@ -40,12 +40,12 @@ export default function Login() {
 	return (
 		<form onSubmit={loginCheck} className="col-12 col-sm-9 col-lg-6 mx-auto">
 			<div className="form-floating mb-3">
-				<input type="text" name="username" className="form-control" placeholder=" " value={cred.username} onChange={e => setUsername(e.target.value)} autoFocus />
+				<input type="text" name="username" className="form-control" placeholder=" " value={cred.username} onChange={e => setCred({ username: e.target.value, password: cred.password })} autoFocus />
 				<label>Username</label>
 			</div>
 
 			<div className="form-floating mb-3">
-				<input type="password" name="password" className="form-control" placeholder=" " value={cred.password} onChange={e => setPassword(e.target.value)} />
+				<input type="password" name="password" className="form-control" placeholder=" " value={cred.password} onChange={e => setCred({ username: cred.username, password: e.target.value })} />
 				<label>Password</label>
 			</div>
 
